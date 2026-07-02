@@ -1,0 +1,11 @@
+sudo apt update
+
+sudo apt install apache2 -y
+
+cd /var/www/html
+
+sudo rm index.html
+
+sudo nano index.html
+
+sudo systemctl restart apache2
